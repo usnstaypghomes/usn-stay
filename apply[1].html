@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>USN Stay PG – Apply Now</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6fa;color:#111827}
+.header{background:#0d1b2a;color:#fff;padding:28px 18px;text-align:center}
+.logo{font-size:38px;font-weight:800;color:#ff8c00}
+.logo span{color:#fff}
+.header p{margin:8px 0 0;font-size:16px}
+.container{max-width:720px;margin:28px auto;padding:0 16px}
+.card{background:#fff;border-radius:18px;padding:28px;box-shadow:0 8px 28px rgba(0,0,0,.10)}
+h1{margin:0 0 8px;color:#0d1b2a}
+.sub{color:#667085;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{margin-bottom:16px}
+label{display:block;font-weight:700;margin-bottom:7px;color:#243447}
+input,select,textarea{width:100%;padding:13px 14px;border:1px solid #d0d5dd;border-radius:10px;font-size:15px;background:#fff}
+textarea{min-height:100px;resize:vertical}
+.full{grid-column:1/-1}
+button{width:100%;border:0;border-radius:11px;background:#ff8c00;color:#fff;font-size:17px;font-weight:800;padding:15px;cursor:pointer}
+button:hover{background:#e87d00}
+.note{font-size:12px;color:#667085;text-align:center;margin-top:14px}
+.required{color:#d92d20}
+@media(max-width:600px){.grid{grid-template-columns:1fr}.full{grid-column:auto}.card{padding:20px}}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="logo">USN <span>STAY PG</span></div>
+  <p>Comfort • Safety • Home Away From Home</p>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h1>PG Application Form</h1>
+    <div class="sub">Fill in your details. Our team will contact you shortly.</div>
+
+    <form action="https://formsubmit.co/umesh@usnconsultants.com" method="POST">
+      <input type="hidden" name="_subject" value="New USN Stay PG Application">
+      <input type="hidden" name="_next" value="https://usnstaypghomes.github.io/usn-stay/thank-you.html">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="hidden" name="_url" value="https://usnstaypghomes.github.io/usn-stay/apply.html">
+
+      <div class="grid">
+        <div class="field">
+          <label>Full Name <span class="required">*</span></label>
+          <input type="text" name="Full Name" required>
+        </div>
+        <div class="field">
+          <label>Mobile Number <span class="required">*</span></label>
+          <input type="tel" name="Mobile Number" pattern="[0-9]{10}" maxlength="10" required>
+        </div>
+        <div class="field">
+          <label>WhatsApp Number</label>
+          <input type="tel" name="WhatsApp Number" pattern="[0-9]{10}" maxlength="10">
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" name="Email">
+        </div>
+        <div class="field">
+          <label>College / Company</label>
+          <input type="text" name="College or Company">
+        </div>
+        <div class="field">
+          <label>Current City</label>
+          <input type="text" name="Current City">
+        </div>
+        <div class="field">
+          <label>Room Preference <span class="required">*</span></label>
+          <select name="Room Preference" required>
+            <option value="">Select</option>
+            <option>Single Sharing</option>
+            <option>Double Sharing</option>
+            <option>Triple Sharing</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Expected Move-in Date</label>
+          <input type="date" name="Expected Move-in Date">
+        </div>
+        <div class="field">
+          <label>Fooding Required?</label>
+          <select name="Fooding Required">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Expected Stay</label>
+          <select name="Expected Stay">
+            <option>Less than 3 months</option>
+            <option>3–6 months</option>
+            <option>6–12 months</option>
+            <option>1 year or more</option>
+          </select>
+        </div>
+        <div class="field full">
+          <label>Message / Requirement</label>
+          <textarea name="Message / Requirement" placeholder="Any specific requirement..."></textarea>
+        </div>
+        <div class="field full">
+          <button type="submit">APPLY FOR PG</button>
+          <div class="note">Your application details will be sent to USN Stay PG.</div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
